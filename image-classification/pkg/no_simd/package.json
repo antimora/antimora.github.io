@@ -1,0 +1,16 @@
+{
+  "name": "image-classification-web",
+  "collaborators": [
+    "Dilshod Tadjibaev (@antimora)"
+  ],
+  "version": "0.10.0",
+  "license": "MIT OR Apache-2.0",
+  "files": [
+    "image_classification_web_bg.wasm",
+    "image_classification_web.js"
+  ],
+  "module": "image_classification_web.js",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
